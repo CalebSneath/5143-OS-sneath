@@ -142,6 +142,9 @@ def cd(inHistoryList, inCommand):
     return homeDir
 
 def historyLoad(inHistoryList, inCommand):
+  if "--help" in inCommand:
+    printCommand("Loads a command from history." + '\n')
+    return ""
   try:
     # Remove all of the whitespace and the starting !
     newCommand = (inCommand.replace("!", "", 1))
@@ -158,6 +161,10 @@ def historyLoad(inHistoryList, inCommand):
 # cursor up, to go all the way back
 # to the top of the terminal
 def clear(inHistoryList, inCommand):
+  if ("--help" in inCommand):
+    printCommand("Clears the terminal." + '\n')
+    return ""
+
   width, height = os.get_terminal_size()
   for index in range (height):
     printOutput('\n')
