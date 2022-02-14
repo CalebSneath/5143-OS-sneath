@@ -18,3 +18,6 @@ This folder displays the use of Python to implement a basic shell capable of som
 - Copy this folder.
 - Run "Python3 'whichever directory you install it to'/shell.py"
 - Type any command you wish to use, and add "--help" for an explanation of it.
+
+### Replit Link
+https://replit.com/@CalebSneath/shell#commands/ls.py
