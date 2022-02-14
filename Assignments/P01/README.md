@@ -48,7 +48,6 @@ This folder displays the use of Python to implement a basic shell capable of som
 ### Notes and Known Issues
 All commands work as instructed on the assignment or according to expectations, with the following exceptions:
 - Preparse commands (mainly just cd and !x) don't support threading unlike every other process. This was mainly an intentional decision, as these two commands have minimal runtime that would not benefit from threading, would be more difficult to implement, and would have potentially disasterous effects introduced if threading was allowed. For example, if the program was for some reason unresponsive and the user entered the cd command, assumed it didn't work, then the command could cause considerable damage if the command finishes before the "rm -r" command was finsihed. !x, loading a command from history, is a similar story.
-- !x and clear don't support the "--help" flag. I just forgot about it until now.
 - A rare bug causes a select few commands to fail if the directory is changed from the home directory. Usually changing back to the home directory and adjusting the path fixes this.
 - On Replit, resizing the terminal during runtime can sometimes cause unstable display behavior. It is unknown if this is a Replit specific issue.
 - On Replit, the when command is about a day off due to incorrect date settings on Replit's virtual machines.
