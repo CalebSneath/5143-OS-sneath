@@ -1225,6 +1225,7 @@ void SimulationMemory::dumpMemory(std::string inFileName)
     saveFileGen << "    }," << std::endl;
 
     // Store contents of B
+    saveFileGen << "    \"";
     saveFileGen << "B" << "\": {" << std::endl;
     tempVar = "";
     for (int index = 100; index < 255; index += 5)
@@ -1241,6 +1242,7 @@ void SimulationMemory::dumpMemory(std::string inFileName)
     saveFileGen << "    }," << std::endl;
 
     // Store contents of C
+    saveFileGen << "    \"";
     saveFileGen << "C" << "\": {" << std::endl;
     tempVar = "";
     for (int index = 100; index < 255; index += 5)
@@ -1257,13 +1259,14 @@ void SimulationMemory::dumpMemory(std::string inFileName)
     saveFileGen << "    }," << std::endl;
 
     // Store contents of D
-    saveFileGen << "A" << "\": {" << std::endl;
+    saveFileGen << "    \"";
+    saveFileGen << "D" << "\": {" << std::endl;
     tempVar = "";
     for (int index = 100; index < 255; index += 5)
     {
         // Generate from 1 to nine (inclusive)
         tempVar = std::to_string(index);
-        saveFileGen << "        \"" << index << "\": " << std::to_string(sharedMemory.at("A" + tempVar));
+        saveFileGen << "        \"" << index << "\": " << std::to_string(sharedMemory.at("D" + tempVar));
         if (index != 250)
         {
             saveFileGen << ",";
