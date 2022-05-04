@@ -1,8 +1,6 @@
 ## P02 - CPU Scheduling Simulation - Simulating basic scheduling algorithms.
 ### Caleb Sneath
-#### April 22, 2022
-
-## Readme in progress
+#### May 4, 2022
 
 ### Description:
 
