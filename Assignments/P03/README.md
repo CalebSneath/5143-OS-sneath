@@ -1,8 +1,8 @@
 ## P03 - Reader Writer Part 1 - Shared Memory
-### Caleb Sneath
+#### Caleb Sneath
 #### May 4, 2022
 
-
+<img src="Running Screenshot.png" width="1000">
 ### Description:
 
 This folder displays the use of C++ and the Windows.h library to implement a basic simulation of several reader/writer processes utilizing shared memory. This simulation displays the concepts of multiprocessing, shared resource usage, synchronization, and deadlock avoidance.
@@ -20,14 +20,15 @@ Although this was a group project, I decided to make this project without any ot
 |   5   | [user_interface_primitives.h](https://github.com/CalebSneath/5143-OS-sneath/blob/main/Assignments/P03/user_interface_primitives.h)         | Contains header information for user_interface_primitives.cpp. |
 |   6   | [simulation.cpp](https://github.com/CalebSneath/5143-OS-sneath/blob/main/Assignments/P03/simulation.cpp)         | Contains simulation specific logic. |
 |   7   | [simulation.h](https://github.com/CalebSneath/5143-OS-sneath/blob/main/Assignments/P03/simulation.h)         | Header for simulation.cpp.  |
-|   8   | [memory.dat](https://github.com/CalebSneath/5143-OS-sneath/blob/main/Assignments/P03/memory.dat)         | Simulation shared memory input/output file.  |
+|   8   | [memory.json](https://github.com/CalebSneath/5143-OS-sneath/blob/main/Assignments/P03/memory.json)         | Simulation shared memory input/output file.  |
 |   9   | [Icon.ico](https://github.com/CalebSneath/5143-OS-sneath/blob/main/Assignments/P03/Icon.ico)         | The program thumbnail.  |
 |   10  | [Icon2.png](https://github.com/CalebSneath/5143-OS-sneath/blob/main/Assignments/P03/Icon2.png)         | Program image asset.  |
 |   11  | [Icon3.png](https://github.com/CalebSneath/5143-OS-sneath/blob/main/Assignments/P03/Icon3.png)         | Program image asset.  |
-|   12  | [Random Settings.conf](https://github.com/CalebSneath/5143-OS-sneath/blob/main/Assignments/P03/Random_Settings.conf)         | The program's random number seed config file.  |
+|   12  | [Random Settings.conf](https://github.com/CalebSneath/5143-OS-sneath/blob/main/Assignments/P03/Random%20Settings.conf)         | The program's random number seed config file.  |
 |   13  | [simulation.conf](https://github.com/CalebSneath/5143-OS-sneath/blob/main/Assignments/P03/simulation.conf)         | The program's random number seed config file.  |
 |   14  | [readers/readersX]   | A process file showing the remaining instructions for a reader process.  |
 |   15  | [writers/writersX] | A process file showing the remaining instructions for a writer process.  |
+|   16  | Other .pngs | Various screenshots of the program. |
 
 
 ### Notes and Observations
@@ -35,7 +36,7 @@ Performance can be drastically improved in some cases by not bothering to lock d
 
 Another important thing to note is that even if you lock a program down completely, it can still execute differently if it begins in a different state. This was not always controlled for in this simulation, meaning that even properly locking resources down leads to some occasional variance in outcomes.
 
-
+<img src="Menu Screenshot.png" width="1000">
 ### Instructions
 - Create a new empty C++ program in Visual Studios.
 - Copy files into Source Files in Visual Studios. (.h and .cpp files)
