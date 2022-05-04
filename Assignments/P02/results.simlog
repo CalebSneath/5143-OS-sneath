@@ -1,0 +1,265 @@
+0 Beginning Simulation.
+__________________________
+ 
+ 
+ 
+ 
+0 P0 moved to the new queue
+0 P1 moved to the new queue
+1 P2 moved to the new queue
+1 P0 moved from ready to CPU processing queue
+1 P1 moved from ready to CPU processing queue
+2 P3 moved to the new queue
+3 P4 moved to the new queue
+3 P5 moved to the new queue
+4 P6 moved to the new queue
+11 P1 finished CPU burst and moved to IO wait queue
+12 P2 moved from ready to CPU processing queue
+12 P3 moved from ready to CPU processing queue
+12 P1 moved from waiting to IO processing queue
+22 P2 finished CPU burst and moved to IO wait queue
+23 P2 moved from waiting to IO processing queue
+24 P3 finished CPU burst and moved to IO wait queue
+25 P4 moved from ready to CPU processing queue
+25 P5 moved from ready to CPU processing queue
+37 P4 finished CPU burst and moved to IO wait queue
+39 P5 finished CPU burst and moved to IO wait queue
+40 P6 moved from ready to CPU processing queue
+43 P0 finished CPU burst and moved to IO wait queue
+50 P1 finished IO burst and moved to CPU ready queue
+51 P1 moved from ready to CPU processing queue
+51 P3 moved from waiting to IO processing queue
+51 P4 moved from waiting to IO processing queue
+53 P6 finished CPU burst and moved to IO wait queue
+55 P2 finished IO burst and moved to CPU ready queue
+56 P2 moved from ready to CPU processing queue
+65 P1 finished CPU burst and moved to IO wait queue
+69 P2 finished CPU burst and moved to IO wait queue
+82 P4 finished IO burst and moved to CPU ready queue
+83 P4 moved from ready to CPU processing queue
+83 P5 moved from waiting to IO processing queue
+83 P0 moved from waiting to IO processing queue
+87 P3 finished IO burst and moved to CPU ready queue
+88 P3 moved from ready to CPU processing queue
+96 P4 finished CPU burst and moved to IO wait queue
+103 P3 finished CPU burst and moved to IO wait queue
+107 P5 finished IO burst and moved to CPU ready queue
+108 P5 moved from ready to CPU processing queue
+108 P6 moved from waiting to IO processing queue
+108 P1 moved from waiting to IO processing queue
+118 P5 finished CPU burst and moved to IO wait queue
+128 P0 finished IO burst and moved to CPU ready queue
+129 P0 moved from ready to CPU processing queue
+134 P6 finished IO burst and moved to CPU ready queue
+135 P6 moved from ready to CPU processing queue
+135 P2 moved from waiting to IO processing queue
+135 P4 moved from waiting to IO processing queue
+143 P1 finished IO burst and moved to CPU ready queue
+144 P0 finished CPU burst and moved to IO wait queue
+145 P1 moved from ready to CPU processing queue
+147 P6 finished CPU burst and moved to IO wait queue
+158 P1 finished CPU burst and moved to IO wait queue
+159 P4 finished IO burst and moved to CPU ready queue
+160 P4 moved from ready to CPU processing queue
+160 P3 moved from waiting to IO processing queue
+160 P5 moved from waiting to IO processing queue
+165 P2 finished IO burst and moved to CPU ready queue
+166 P2 moved from ready to CPU processing queue
+172 P4 finished CPU burst and moved to IO wait queue
+181 P2 finished CPU burst and moved to IO wait queue
+189 P5 finished IO burst and moved to CPU ready queue
+190 P5 moved from ready to CPU processing queue
+190 P0 moved from waiting to IO processing queue
+190 P6 moved from waiting to IO processing queue
+197 P3 finished IO burst and moved to CPU ready queue
+198 P3 moved from ready to CPU processing queue
+200 P5 finished CPU burst and moved to IO wait queue
+212 P3 finished CPU burst and moved to IO wait queue
+216 P6 finished IO burst and moved to CPU ready queue
+217 P6 moved from ready to CPU processing queue
+217 P1 moved from waiting to IO processing queue
+217 P4 moved from waiting to IO processing queue
+222 P0 finished IO burst and moved to CPU ready queue
+223 P0 moved from ready to CPU processing queue
+232 P6 finished CPU burst and moved to IO wait queue
+238 P0 finished CPU burst and moved to IO wait queue
+248 P1 finished IO burst and moved to CPU ready queue
+248 P4 finished IO burst and moved to CPU ready queue
+249 P1 moved from ready to CPU processing queue
+249 P4 moved from ready to CPU processing queue
+249 P2 moved from waiting to IO processing queue
+249 P5 moved from waiting to IO processing queue
+249 P3 moved from waiting to IO processing queue
+249 P6 moved from waiting to IO processing queue
+259 P1 finished CPU burst and moved to IO wait queue
+262 P4 finished CPU burst and moved to IO wait queue
+276 P6 finished IO burst and moved to CPU ready queue
+277 P6 moved from ready to CPU processing queue
+278 P2 finished IO burst and moved to CPU ready queue
+279 P2 moved from ready to CPU processing queue
+282 P3 finished IO burst and moved to CPU ready queue
+283 P0 moved from waiting to IO processing queue
+283 P1 moved from waiting to IO processing queue
+286 P5 finished IO burst and moved to CPU ready queue
+289 P2 finished CPU burst and moved to IO wait queue
+290 P6 finished CPU burst and moved to IO wait queue
+290 P3 moved from ready to CPU processing queue
+290 P5 moved from ready to CPU processing queue
+302 P5 finished CPU burst and moved to IO wait queue
+304 P3 finished CPU burst and moved to IO wait queue
+319 P0 finished IO burst and moved to CPU ready queue
+320 P0 moved from ready to CPU processing queue
+320 P4 moved from waiting to IO processing queue
+320 P2 moved from waiting to IO processing queue
+322 P1 finished IO burst and moved to CPU ready queue
+323 P1 moved from ready to CPU processing queue
+335 P0 finished CPU burst and moved to IO wait queue
+335 P1 finished CPU burst and moved to IO wait queue
+350 P2 finished IO burst and moved to CPU ready queue
+351 P2 moved from ready to CPU processing queue
+351 P6 moved from waiting to IO processing queue
+351 P5 moved from waiting to IO processing queue
+359 P4 finished IO burst and moved to CPU ready queue
+360 P4 moved from ready to CPU processing queue
+362 P2 finished CPU burst and moved to IO wait queue
+374 P4 finished CPU burst and moved to IO wait queue
+383 P5 finished IO burst and moved to CPU ready queue
+384 P5 moved from ready to CPU processing queue
+384 P3 moved from waiting to IO processing queue
+384 P0 moved from waiting to IO processing queue
+385 P6 finished IO burst and moved to CPU ready queue
+386 P6 moved from ready to CPU processing queue
+398 P5 finished CPU burst and moved to IO wait queue
+398 P6 finished CPU burst and moved to IO wait queue
+415 P0 finished IO burst and moved to CPU ready queue
+416 P3 finished IO burst and moved to CPU ready queue
+416 P0 moved from ready to CPU processing queue
+416 P1 moved from waiting to IO processing queue
+416 P2 moved from waiting to IO processing queue
+417 P3 moved from ready to CPU processing queue
+427 P0 finished CPU burst and moved to IO wait queue
+430 P3 finished CPU burst and moved to IO wait queue
+441 P1 finished IO burst and moved to CPU ready queue
+442 P1 moved from ready to CPU processing queue
+442 P4 moved from waiting to IO processing queue
+442 P5 moved from waiting to IO processing queue
+445 P2 finished IO burst and moved to CPU ready queue
+446 P2 moved from ready to CPU processing queue
+457 P1 finished CPU burst and moved to IO wait queue
+457 P2 finished CPU burst and moved to IO wait queue
+466 P4 finished IO burst and moved to CPU ready queue
+467 P4 moved from ready to CPU processing queue
+467 P6 moved from waiting to IO processing queue
+467 P0 moved from waiting to IO processing queue
+478 P5 finished IO burst and moved to CPU ready queue
+479 P5 moved from ready to CPU processing queue
+480 P4 finished CPU burst and moved to IO wait queue
+493 P5 finished CPU burst and moved to IO wait queue
+498 P6 finished IO burst and moved to CPU ready queue
+499 P6 moved from ready to CPU processing queue
+499 P3 moved from waiting to IO processing queue
+499 P1 moved from waiting to IO processing queue
+503 P0 finished IO burst and moved to CPU ready queue
+504 P0 moved from ready to CPU processing queue
+514 P6 finished CPU burst and moved to IO wait queue
+515 P0 finished CPU burst and moved to IO wait queue
+528 P3 finished IO burst and moved to CPU ready queue
+529 P1 finished IO burst and moved to CPU ready queue
+529 P3 moved from ready to CPU processing queue
+529 P2 moved from waiting to IO processing queue
+529 P4 moved from waiting to IO processing queue
+530 P1 moved from ready to CPU processing queue
+541 P3 finished CPU burst and moved to IO wait queue
+543 P1 finished CPU burst and moved to IO wait queue
+557 P2 finished IO burst and moved to CPU ready queue
+558 P2 moved from ready to CPU processing queue
+558 P5 moved from waiting to IO processing queue
+558 P6 moved from waiting to IO processing queue
+568 P4 finished IO burst and moved to CPU ready queue
+569 P4 moved from ready to CPU processing queue
+571 P2 finished CPU burst and moved to IO wait queue
+581 P4 finished CPU burst and moved to IO wait queue
+591 P5 finished IO burst and moved to CPU ready queue
+591 P6 finished IO burst and moved to CPU ready queue
+592 P5 moved from ready to CPU processing queue
+592 P6 moved from ready to CPU processing queue
+592 P0 moved from waiting to IO processing queue
+592 P3 moved from waiting to IO processing queue
+592 P1 moved from waiting to IO processing queue
+592 P2 moved from waiting to IO processing queue
+602 P5 finished CPU burst and moved to IO wait queue
+605 P6 finished CPU burst and moved to IO wait queue
+619 P1 finished IO burst and moved to CPU ready queue
+620 P0 finished IO burst and moved to CPU ready queue
+620 P1 moved from ready to CPU processing queue
+621 P0 moved from ready to CPU processing queue
+625 P2 finished IO burst and moved to CPU ready queue
+626 P4 moved from waiting to IO processing queue
+626 P5 moved from waiting to IO processing queue
+630 P1 finished CPU burst and moved to IO wait queue
+631 P0 finished CPU burst and moved to IO wait queue
+631 P3 finished IO burst and moved to CPU ready queue
+631 P2 moved from ready to CPU processing queue
+632 P3 moved from ready to CPU processing queue
+642 P3 finished CPU burst and moved to IO wait queue
+645 P2 finished CPU burst and moved to IO wait queue
+658 P4 finished IO burst and moved to CPU ready queue
+659 P4 moved from ready to CPU processing queue
+659 P6 moved from waiting to IO processing queue
+659 P1 moved from waiting to IO processing queue
+661 P5 finished IO burst and moved to CPU ready queue
+662 P5 moved from ready to CPU processing queue
+669 P4 finished CPU burst and moved to IO wait queue
+673 P5 finished CPU burst and moved to IO wait queue
+687 P1 finished IO burst and moved to CPU ready queue
+688 P1 moved from ready to CPU processing queue
+688 P0 moved from waiting to IO processing queue
+688 P3 moved from waiting to IO processing queue
+694 P6 finished IO burst and moved to CPU ready queue
+695 P6 moved from ready to CPU processing queue
+703 P1 completed:
+TAT: 703, Ready Time: 10, IO Wait Time: 328
+707 P6 completed:
+TAT: 703, Ready Time: 43, IO Wait Time: 343
+717 P3 finished IO burst and moved to CPU ready queue
+718 P3 moved from ready to CPU processing queue
+718 P2 moved from waiting to IO processing queue
+718 P4 moved from waiting to IO processing queue
+723 P0 finished IO burst and moved to CPU ready queue
+724 P0 moved from ready to CPU processing queue
+728 P3 completed:
+TAT: 726, Ready Time: 24, IO Wait Time: 367
+734 P0 completed:
+TAT: 734, Ready Time: 8, IO Wait Time: 354
+746 P2 finished IO burst and moved to CPU ready queue
+747 P2 moved from ready to CPU processing queue
+747 P5 moved from waiting to IO processing queue
+748 P4 finished IO burst and moved to CPU ready queue
+749 P4 moved from ready to CPU processing queue
+761 P2 finished CPU burst and moved to IO wait queue
+762 P2 moved from waiting to IO processing queue
+763 P4 finished CPU burst and moved to IO wait queue
+772 P5 finished IO burst and moved to CPU ready queue
+773 P5 moved from ready to CPU processing queue
+773 P4 moved from waiting to IO processing queue
+784 P5 finished CPU burst and moved to IO wait queue
+800 P2 finished IO burst and moved to CPU ready queue
+801 P2 moved from ready to CPU processing queue
+801 P5 moved from waiting to IO processing queue
+803 P4 finished IO burst and moved to CPU ready queue
+804 P4 moved from ready to CPU processing queue
+812 P2 finished CPU burst and moved to IO wait queue
+813 P2 moved from waiting to IO processing queue
+815 P4 completed:
+TAT: 812, Ready Time: 31, IO Wait Time: 377
+832 P5 finished IO burst and moved to CPU ready queue
+833 P5 moved from ready to CPU processing queue
+837 P2 finished IO burst and moved to CPU ready queue
+838 P2 moved from ready to CPU processing queue
+848 P5 completed:
+TAT: 845, Ready Time: 34, IO Wait Time: 408
+849 Simulation Finished - Results:
+24% average CPU Utilization.
+Average turn around time: 753 cycles.
+Average IO wait time: 362 cycles.
+Average CPU wait time: 25 cycles.
